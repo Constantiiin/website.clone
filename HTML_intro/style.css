@@ -1,14 +1,16 @@
 body {
     background-color: lightgray;
     margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
 }
 nav {
-    background-color: white;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 38px 118px;
-    
+    color: black;
 }
 #navbarLogo {
     width: 129px;
@@ -54,21 +56,18 @@ nav {
 }
 .img1 {
     position: relative;
-    width: 50px;
-    padding-left: 50%;
+    width:0;
+    padding-left: 0;
     
     
 
 }
 #img2 {
   position: absolute;
-  background-position: center;
-  size: 10px;
+  top:30px;
+  left: 5px;
   
-  top: 30px;
-  left: 30px;
+}
+  
   
 
-    
-    
-}
