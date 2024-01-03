@@ -1,0 +1,142 @@
+body {
+background-color: antiquewhite;
+
+}
+
+.Logo {
+    display:flex;
+    background-color: none;
+    width: 100px;
+    padding:50px 0 ;
+ margin:50px auto;
+ line-height: 0;
+    cursor: pointer;
+    transition: background 1s,3s, 4s, 2s;
+  
+    border-radius: 100px;
+    margin-left: 550px;
+
+}
+.Logo:hover {
+    background: none;
+    transform: rotateX(360deg);
+}
+.hover {
+    
+    text-align: center;
+    width: 100px;
+    padding: 50px 0;
+    line-height: 0;
+    margin: 61px auto;
+    background: pink;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    
+    transition: background 1s,3s, 4s, 2s;
+    
+}
+.hover:hover {
+    background: salmon;
+    transform: rotate(360deg);
+}
+
+    
+img {
+    background-color: none;
+}
+.Buttons {
+    display: flex;
+    justify-content: space-around;
+
+}
+.website {
+
+    
+
+    color: black;
+    background-color: antiquewhite;
+    text-decoration: none;
+  
+    margin: none;
+   
+    border: none;
+    transition: background 3s, 2s, 3s, 4s, 3s;
+    
+}
+.Buttons a{
+ text-decoration: none;
+ font-size: 30px;}
+.facebook {
+    background-color: blue;
+    text-decoration: none;
+    
+    
+    border-radius: 3px;
+    border: none;
+    transition: background 3s,4s,3s,4s;}
+.facebook a { 
+    color: white;
+    
+    font-size: 20px;
+    font-style: bold;
+   
+    
+}
+.twitter {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    border-radius: 18px;
+    transition: background 1s, 3s, 4s, 2s;
+}
+.twitter a{
+    color: white;
+    height: 36px;
+    width: 74px;
+    transition: background 1s, 3s, 4s,;
+}
+.instagram {
+    border: none;
+    background-color: antiquewhite;
+    font-style: inherit;
+    
+    transition: background 2s, 3s, 4s,1s;
+}
+.instagram a{
+    color: black;
+}
+.twitter:hover {
+    background: rgb(76, 76, 109);
+    transform: rotateY(360deg);
+}
+.instagram:hover {
+    transform: rotate(360deg);
+}
+.facebook:hover {
+    background: black;
+
+}
+
+
+.website a{
+    transform: rotate(360deg);
+    color: red;
+    transition: background 3s, 2s, 3s, 4s, 3s;
+    rotate: 360deg;
+}
+.website:hover {
+    background: antiquewhite;
+transform: rotateX(360deg);
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+p {
+    
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
